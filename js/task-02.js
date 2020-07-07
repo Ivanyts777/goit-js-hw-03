@@ -2,7 +2,7 @@
 
 const countProps = function (obj) {
   let itemsValues = Object.values(obj);
-  console.log(`${itemsValues.length}`);
+  return itemsValues.length;
 };
 
 /*
